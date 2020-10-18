@@ -1,0 +1,58 @@
+/*-----ACTIVE PAGE------*/
+.sobrenos_active{
+    font-weight: 700;
+}
+.container_white{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.container_gray{
+    width: 100%;
+    height: 400px;
+    background-color: #E1E2E4;
+    margin-bottom: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+   font-family: 'Barlow';
+}
+.container_images{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    font-size: 22px;
+}
+.php, .css, .ppt{
+    margin: 50px;
+    margin: 100px;
+    text-decoration: underline;
+    text-decoration-color: #FFDE59;
+    font-size: 22px;
+}
+#center_line{
+    font-size: 26px;
+}
+#name{
+    font-weight: 700;
+}
+#email a{
+    color: gray;
+}
+
+.php img:hover{
+    transform:scale(1.1);
+}
+.css img:hover{
+    transform:scale(1.1);
+}
+.ppt img:hover{
+    transform:scale(1.1); 
+}

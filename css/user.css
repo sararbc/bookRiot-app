@@ -1,0 +1,217 @@
+/* USER DADOS */
+
+.container{
+    font-family: 'Barlow';
+}
+
+#h1_user{
+    font-family: 'Barlow';
+    margin: 0 auto;
+    max-width: 80%;
+    padding-left: 0;
+}
+
+h1{
+    padding-top: 1%;
+    padding-left: 6%;
+    font-family: 'Barlow';
+}
+
+h3{
+    text-decoration: underline;
+    text-decoration-color: #FFDE59;
+}
+
+/* USER LIST */
+
+.user_list{
+    border-collapse: collapse;
+    min-width: 500px;
+    font-family: 'Barlow';
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.user_list th img{
+    width: 15%;
+}
+.user_list th,
+.user_list td{
+    padding: 12px 15px;
+}
+ #row1, #row2{
+    border-bottom: 6px solid white;
+    background-color: #E1E2E4;
+}
+.user_list  tr {
+    background-color: #E1E2E4;
+}
+.user_list tr[data-href]{
+    cursor: pointer;
+}
+
+.final_buttons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #FFDE59;
+    font-family: 'Barlow';
+    color: black;
+    padding: 4px;
+    margin: 10px 0;
+    border: 1px solid black;
+    width: 10%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.button:hover{
+    background-color: #eee;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.form_dados{
+    margin: 3% 0% 3% 6%;
+}
+
+.dados_container{
+    border-radius: 5px;
+    background-color: #E1E2E4;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+/* EDITAR DADOS */
+
+.form_edit{
+    border-radius: 5px;
+    background-color: #E1E2E4;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top:80px;
+    margin-bottom: 20px;
+}
+
+.form_edit input[type=text], input[type=password], select, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #FFDE59;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom: 16px;
+}
+
+.button {
+    background-color: #FFDE59;
+    font-family: 'Barlow';
+    color: black;
+    padding: 4px;
+    margin: 10px 0;
+    border: 1px solid black;
+    width: auto;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.button_gray{
+    background-color: gray;
+    font-family: 'Barlow';
+    color: black;
+    padding: 4px;
+    margin: 10px 0;
+    border: 1px solid black;
+    width: auto;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.button_gray:hover{
+    background-color: #eee;
+}
+
+/* ALTERAR PASSWORD */
+
+.form_pass{
+    border-radius: 5px;
+    background-color: #E1E2E4;
+    padding: 20px;
+    margin-left: 6%;
+    max-width: 25%;
+}
+
+.form_pass input[type=password], select, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 1px;
+    display: block;
+    border: 1px solid #FFDE59;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* CARTÃO DE FIDELIDADE*/
+
+.tabela_cartao{
+    max-width: 65%;
+    margin-left: 6%;
+    border-collapse: collapse;
+    font-size: 18px;
+    min-width: 500px;
+    font-family: 'Barlow';
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    margin: 0 auto;
+}
+.tabela_cartao thead tr{
+    background-color: #E1E2E4;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 2px solid #404040;
+}
+.tabela_cartao th,
+.tabela_cartao td{
+    padding: 12px 15px;
+}
+
+.tabela_cartao tbody tr{
+    border-bottom: 2px solid #404040;
+}
+
+.tabela_cartao tbody tr:hover{
+    background-color: #E1E2E4;
+}
+
+.total_cartao{
+    font-size: large;
+    text-align: right;
+    max-width: 80%;
+    margin-top: 1%;
+}
+

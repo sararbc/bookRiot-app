@@ -1,0 +1,140 @@
+/*-------------ACTIVE PAGE----------------------*/
+.livros_active{
+    font-weight: 700;
+}
+/*-------------LIVROS LIST----------------------*/
+.col-left{
+    flex: 70%;
+    min-height: 80%;
+    padding: 2%;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.product-card {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-card .content{
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1;
+    padding: 4%;
+    text-align: left;
+}
+.product-image .a img{
+    width: 30%;
+}
+.product-info{
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Barlow';
+    text-align: left;
+}
+
+.product-info p{
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+.product-info .titulo{
+    color: gray;
+    font-weight: 700;
+}
+.product-info .preco{
+    color: black;
+    font-weight: 700;
+}
+
+input[type="image"]{
+    width: 25px;
+    margin-top: 4px;
+}
+input[type="image"]:hover{
+    transform:scale(1.1);
+}
+.img_livro{
+    width: 200px;
+    height: auto;
+}
+.container{
+    display: flex;
+}
+
+/*-------------FILTROS----------------------*/
+
+.col-right{
+    flex:30%;
+    min-height: 80%;
+    padding: 2%;
+    font-family: 'Barlow';
+    margin-top: 50px;
+}
+
+h3{  
+    text-decoration: underline;
+    text-decoration-color: #FFDE59;
+    text-align: center;
+}
+
+h4{
+    text-decoration: underline;
+    text-decoration-color: #FFDE59;
+    margin: 0;
+}
+
+.form_filtro{
+    line-height: 20px;
+    border-radius: 5%;
+    border: 2px solid #FFDE59;
+    padding: 8%;
+}
+button {
+    background-color: #FFDE59;
+    font-family: 'Barlow';
+    color: black;
+    padding: 4px;
+    margin: 10px 0;
+    border: 1px solid black;
+    width: auto;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: #eee;
+}
+.final_button{
+    text-align: center;
+}
+.form_filtro input[type=text]{
+    width: 80%;
+    padding: 3px 10px;
+    margin: 8px 0;
+    border: 1px solid #FFDE59;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.form_filtro .checkboxes{
+    display: block;
+    position: relative;
+}
+.form_filtro .checkboxes label{
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.form_filtro .checkboxes input{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+p #no_results{
+    font-family: 'Barlow';
+    color: black;
+    font-weight: 700;
+}
